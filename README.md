@@ -1,5 +1,7 @@
 # DNSHog - CLI
 
+A CLI tool for managing DNS records, testing connectivity, and more.
+
 ## Installation
 
 ``` bash
