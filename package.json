@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "A CLI tool for managing DNS records, testing connectivity, and more.",
   "homepage": "https://dnshog.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnshog/cli.git"
+  },
   "bin": {
     "dnshog": "./dist/index.js"
   },
