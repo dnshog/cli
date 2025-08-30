@@ -3,11 +3,12 @@
 import { ZodError } from 'zod';
 import { defineConfig, defineCommand, processConfig } from '@robingenz/zli';
 import { log } from '@clack/prompts';
-
+import pkg from '../package.json' with { type: 'json' };
+  
 const infoCommand = defineCommand({
   description: 'Show information',
   action: async () => {
-    log.info(`DNSHog CLI - Version ${process.env.npm_package_version}`);
+    log.info(`DNSHog CLI - Version ${pkg.version}`);
   },
 });
 
