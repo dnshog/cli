@@ -4,7 +4,7 @@
   "description": "A CLI tool for managing DNS records, testing connectivity, and more.",
   "homepage": "https://dnshog.com",
   "bin": {
-    "capawesome": "./dist/index.js"
+    "dnshog": "./dist/index.js"
   },
   "type": "module",
   "scripts": {
