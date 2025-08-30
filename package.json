@@ -1,0 +1,30 @@
+{
+  "name": "@dnshog/cli",
+  "version": "0.0.1",
+  "description": "A CLI tool for managing DNS records, testing connectivity, and more.",
+  "homepage": "https://dnshog.com",
+  "bin": {
+    "capawesome": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "keywords": [
+    "dns",
+    "cli",
+    "dnshog"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "@robingenz/zli": "^0.1.5",
+    "zod": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.2"
+  }
+}
