@@ -1,6 +1,6 @@
 {
   "name": "@dnshog/cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CLI tool for managing DNS records, testing connectivity, and more.",
   "homepage": "https://dnshog.com",
   "repository": {
